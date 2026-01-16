@@ -12,6 +12,11 @@ to support learning and experimentation.
 - Some disk and root filesystem metrics are not fully visible in Grafana.
 - This is due to node-exporter running in a container without full host filesystem mounts.
 - Disk metrics will be expanded once host mounts are reviewed and intentionally exposed.
+- Some container dashboards display N/A values for host-level metrics.
+This is expected, as node-exporter and cAdvisor are running without full
+host filesystem mounts. These metrics will be enabled intentionally
+after reviewing security and visibility tradeoffs.
+
 
 ### Alerting
 - Alerting is not currently configured.
