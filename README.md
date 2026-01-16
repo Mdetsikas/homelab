@@ -48,13 +48,17 @@ A more detailed diagram is maintained in [`diagrams/architechture.md`](diagrams/
 I am currently building an internal dashboard and monitoring stack to
 better understand observability concepts.
 
+This stack is being built incrementally to better understand how
+metrics flow from services to dashboards.
+
 ### Components (In Progress)
 - Docker
 - Prometheus (metrics collection)
 - Grafana (visualization)
 
-This stack is being built incrementally to better understand how
-metrics flow from services to dashboards.
+### Default Ports (local to the VM)
+- Prometheus: `9090`
+- Grafana: `3000`
 
 ---
 
