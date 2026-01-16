@@ -16,6 +16,7 @@ learning fundamentals rather than building a production-grade system.
 - 📐 Architecture: [`diagrams/architecture.md`](diagrams/architecture.md)
 - 🧭 Progress Log: [`notes/progress.md`](notes/progress.md)
 - 🐳 Docker Compose Strategy: [`docker/compose-strategy.md`](docker/compose-strategy.md)
+- 🧩 Known Limitations: [`notes/known-limitations.md`](notes/known-limitations.md)
 
 ---
 
