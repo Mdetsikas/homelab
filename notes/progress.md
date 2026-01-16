@@ -55,4 +55,10 @@ implementation, or validation.
 
 ---
 
+## Milestone 7 — Container-Level Observability
+
+- Imported Docker / cAdvisor dashboard into Grafana
+- Added container-level visibility for CPU, memory, and network usage
+- Organized container metrics under the Containers dashboard folder
+
 
