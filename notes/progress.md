@@ -28,6 +28,8 @@
 - **VM Deployment:** Provisioned Ubuntu VM on Proxmox; verified network reachability.
 - **Docker Strategy:** Chose VM-based Docker (nested) to keep the Proxmox hypervisor clean and isolated.
 - **Health Check:** Verified basic container health using `docker ps`.
+- **Isolation:** Ensured lab services are isolated from the Proxmox host for safe experimentation.
+
 
 ## 🚀 Project Initiation
 - **Scope:** Defined homelab goals (Docker-first, observability-focused, moving to Kubernetes later).
