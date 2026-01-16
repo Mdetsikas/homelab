@@ -22,6 +22,7 @@ learning fundamentals rather than building a production-grade system.
 
 ## Hardware
 - Repurposed gaming PC hardware
+    - AMD Ryzen 5900x, 16gb DDR4
 - Single-node setup
 
 ---
