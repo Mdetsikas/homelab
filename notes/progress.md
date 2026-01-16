@@ -4,7 +4,7 @@
 > Each entry represents a meaningful step forward in the lab’s design,
 implementation, or validation.
 
-## Milestone 1
+## Milestone 
 - Created initial GitHub documentation
 - Defined scope and goals for the homelab
 - Decided to focus on Docker and observability before Kubernetes
@@ -16,14 +16,14 @@ implementation, or validation.
 
 ---
 
-## Milestone 2
+## Milestone 
 - Confirmed Docker is running inside an Ubuntu VM on the Proxmox host
 - Chose VM-based Docker to keep the Proxmox host clean and isolate lab services
 - Next focus: stand up Prometheus + Grafana and document the data flow
 
 ---
 
-## Milestone 3
+## Milestone 
 - Ubuntu VM is running on Proxmox and reachable from the home network
 - Docker is installed and operational inside the VM
 - Initial dashboard services are running and accessible via the VM IP
@@ -31,7 +31,7 @@ implementation, or validation.
 
 ---
 
-## Milestone 4
+## Milestone 
 - Prometheus and Grafana containers are running without errors
 - node-exporter and cAdvisor containers are active and healthy
 - Prometheus targets page confirms all exporters are UP
@@ -39,7 +39,7 @@ implementation, or validation.
 
 ---
 
-## Milestone 5
+## Milestone 
 - Added Prometheus as a datasource in Grafana
 - Confirmed Grafana can query Prometheus successfully
 - Validated end-to-end metrics flow from exporters to Prometheus and Grafana
@@ -47,7 +47,7 @@ implementation, or validation.
 
 ---
 
-## Milestone 6
+## Milestone 
 - Imported Node Exporter Full dashboard into Grafana
 - Verified live CPU, memory, network, and load metrics
 - Confirmed real-time observability of the Ubuntu VM
@@ -55,10 +55,19 @@ implementation, or validation.
 
 ---
 
-## Milestone 7 — Container-Level Observability
+## Milestone — Container-Level Observability
 
 - Imported Docker / cAdvisor dashboard into Grafana
 - Added container-level visibility for CPU, memory, and network usage
 - Organized container metrics under the Containers dashboard folder
+
+---
+
+## Milestone — Container Metrics Visualization
+
+- Imported Docker / cAdvisor dashboard
+- Verified container CPU and network metrics
+- Confirmed container discovery matches running services
+- Documented expected N/A values for host-level metrics
 
 
