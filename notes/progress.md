@@ -1,73 +1,35 @@
-# Homelab Progress Log
+# 🧭 Homelab Progress Log
 
-> This log tracks major milestones and learning points rather than daily activity.
-> Each entry represents a meaningful step forward in the lab’s design,
-implementation, or validation.
-
-## Milestone 
-- Created initial GitHub documentation
-- Defined scope and goals for the homelab
-- Decided to focus on Docker and observability before Kubernetes
-
-## Next Steps
-- Stand up Prometheus using Docker
-- Connect Grafana to Prometheus
-- Document service connectivity
+> This log tracks major milestones, architectural decisions, and learning points.
+> **Latest Update:** January 2026
 
 ---
 
-## Milestone 
-- Confirmed Docker is running inside an Ubuntu VM on the Proxmox host
-- Chose VM-based Docker to keep the Proxmox host clean and isolate lab services
-- Next focus: stand up Prometheus + Grafana and document the data flow
+## ✅ Phase 3: Container Observability & Visualization
+**Focus:** Gaining visibility into Docker container performance.
 
----
+- **Container Metrics:** Imported Docker/cAdvisor dashboards into Grafana.
+- **Granularity:** Verified container-level visibility for CPU, memory, and network usage.
+- **Organization:** Organized metrics under a dedicated "Containers" dashboard folder.
+- **Validation:** Confirmed container discovery matches running services and documented expected N/A values for host-level metrics.
 
-## Milestone 
-- Ubuntu VM is running on Proxmox and reachable from the home network
-- Docker is installed and operational inside the VM
-- Initial dashboard services are running and accessible via the VM IP
-- Verified basic container health using `docker ps`
+## ✅ Phase 2: Host Monitoring Stack
+**Focus:** Establishing the "Three Pillars" of observability (Prometheus, Grafana, Node Exporter).
 
----
+- **Visualizing Data:** Imported "Node Exporter Full" dashboard into Grafana.
+- **Data Flow:** Validated end-to-end flow: `Exporters -> Prometheus -> Grafana`.
+- **Health Checks:** Verified live CPU, memory, network, and load metrics for the Ubuntu VM.
+- **Datasource Config:** Successfully connected Grafana to the Prometheus datasource.
+- **Service Status:** Confirmed `node-exporter` and `cAdvisor` targets are UP in Prometheus.
 
-## Milestone 
-- Prometheus and Grafana containers are running without errors
-- node-exporter and cAdvisor containers are active and healthy
-- Prometheus targets page confirms all exporters are UP
-- Verified Prometheus is successfully scraping metrics from all configured targets
+## ✅ Phase 1: Core Infrastructure Setup
+**Focus:** Provisioning the virtualization and container runtime environment.
 
----
+- **VM Deployment:** Provisioned Ubuntu VM on Proxmox; verified network reachability.
+- **Docker Strategy:** Chose VM-based Docker (nested) to keep the Proxmox hypervisor clean and isolated.
+- **Health Check:** Verified basic container health using `docker ps`.
 
-## Milestone 
-- Added Prometheus as a datasource in Grafana
-- Confirmed Grafana can query Prometheus successfully
-- Validated end-to-end metrics flow from exporters to Prometheus and Grafana
-- Prepared environment for dashboard visualization and analysis
-
----
-
-## Milestone 
-- Imported Node Exporter Full dashboard into Grafana
-- Verified live CPU, memory, network, and load metrics
-- Confirmed real-time observability of the Ubuntu VM
-- Identified optional disk metrics enhancements for future refinement
-
----
-
-## Milestone - Container-Level Observability
-
-- Imported Docker / cAdvisor dashboard into Grafana
-- Added container-level visibility for CPU, memory, and network usage
-- Organized container metrics under the Containers dashboard folder
-
----
-
-## Milestone - Container Metrics Visualization
-
-- Imported Docker / cAdvisor dashboard
-- Verified container CPU and network metrics
-- Confirmed container discovery matches running services
-- Documented expected N/A values for host-level metrics
-
-
+## 🚀 Project Initiation
+- **Scope:** Defined homelab goals (Docker-first, observability-focused, moving to Kubernetes later).
+- **Documentation:** Created initial GitHub repository structure and documentation standards.
+- **Roadmap:** Prioritized Observability before complex orchestration.
