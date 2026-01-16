@@ -1,5 +1,7 @@
 # Homelab Progress Log
 
+> This log tracks major milestones and learning points rather than daily activity.
+
 ## Milestone 1
 - Created initial GitHub documentation
 - Defined scope and goals for the homelab
