@@ -1,0 +1,16 @@
+# docker/compose.yml
+#
+# Monitoring stack (in progress)
+#
+# Planned services:
+# - Prometheus (metrics collection)
+# - Grafana (visualization)
+#
+# This compose file will define:
+# - services
+# - networks
+# - volumes for persistent data
+#
+# Notes:
+# - Secrets and environment-specific values should not be committed
+# - Configuration files will live in service-specific directories
