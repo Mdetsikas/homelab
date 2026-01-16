@@ -85,6 +85,7 @@ _(This section will grow as the lab evolves.)_
 ---
 
 ## Future Plans
+- Add and incorporate Tailscale 
 - Improve dashboard organization
 - Add alerting
 - Explore logging solutions
