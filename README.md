@@ -11,6 +11,14 @@ learning fundamentals rather than building a production-grade system.
 
 ---
 
+## Documentation Index
+
+- 📐 Architecture: [`diagrams/architecture.md`](diagrams/architecture.md)
+- 🧭 Progress Log: [`notes/progress.md`](notes/progress.md)
+- 🐳 Docker Compose Strategy: [`docker/compose-strategy.md`](docker/compose-strategy.md)
+
+---
+
 ## Hardware
 - Repurposed gaming PC hardware
 - Single-node setup
