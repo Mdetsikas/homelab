@@ -32,7 +32,7 @@ Docker is running inside an **Ubuntu VM** hosted on my Proxmox node.
 - Provides separation between the hypervisor and lab services
 - Lets me rebuild the VM without impacting the host if I break something
 
-A more detailed diagram is maintained in [`diagrams/architechture.md`](../diagrams/architecture.md)
+A more detailed diagram is maintained in [`diagrams/architechture.md`](/diagrams/architecture.md)
 
 ---
 
