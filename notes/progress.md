@@ -1,6 +1,8 @@
 # Homelab Progress Log
 
 > This log tracks major milestones and learning points rather than daily activity.
+> Each entry represents a meaningful step forward in the lab’s design,
+implementation, or validation.
 
 ## Milestone 1
 - Created initial GitHub documentation
