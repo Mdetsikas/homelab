@@ -23,8 +23,18 @@ learning fundamentals rather than building a production-grade system.
 
 ---
 
-## Current Focus: Dashboard & Monitoring
+## Container Runtime
+Docker is running inside an **Ubuntu VM** hosted on my Proxmox node.
 
+**Why this approach:**
+- Keeps the Proxmox host clean and focused on virtualization
+- Makes Docker workloads easier to snapshot/backup/restore
+- Provides separation between the hypervisor and lab services
+- Lets me rebuild the VM without impacting the host if I break something
+
+---
+
+## Current Focus: Dashboard & Monitoring
 I am currently building an internal dashboard and monitoring stack to
 better understand observability concepts.
 
