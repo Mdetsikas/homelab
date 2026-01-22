@@ -58,10 +58,6 @@ metrics flow from services to dashboards.
 - Prometheus (metrics collection)
 - Grafana (visualization)
 
-### Default Ports (local to the VM)
-- Prometheus: `9090`
-- Grafana: `3000`
-
 ---
 
 ## Design Philosophy
